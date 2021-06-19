@@ -1,2 +1,16 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
 .monitoring {
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.primary {
+  font-size: $title;
+}
+.secondary {
+  font-size: $info;
+  color: $grey;
 }
