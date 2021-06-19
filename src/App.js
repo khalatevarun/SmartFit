@@ -2,6 +2,7 @@ import './App.scss';
 import Challenge from './components/Challenge';
 import Header from './components/Header';
 import Monitoring from './components/Monitoring';
+import Recommended from './components/Recommended';
 import Tips from './components/Tips';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Challenge />
             <Tips />
           </div>
+          <Recommended />
         </div>
       </div>
     </div>

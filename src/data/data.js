@@ -2,6 +2,9 @@ import apple from '../icons/apple.png';
 import footprint from '../icons/footprint.png';
 import dumbell from '../icons/dumbell.png';
 import moon from '../icons/moon.png';
+import applesquare from '../icons/applesquare.png';
+import gymsquare from '../icons/gymsquare.png';
+import heartsquare from '../icons/heartsquare.png';
 
 export const dailyStats = [
   {
@@ -56,5 +59,28 @@ export const dailytips = [
   {
     title: 'Early bedtime',
     desc: 'Go to sleep more of the same hour every night.',
+  },
+];
+
+export const recommended = [
+  {
+    img: gymsquare,
+    title: 'High Intensity Training',
+    desc: 'Running in the nature',
+  },
+  {
+    img: applesquare,
+    title: 'Colorful evening meal',
+    desc: 'Vegetables for better',
+  },
+  {
+    img: heartsquare,
+    title: 'Meditate for 5 min',
+    desc: 'Train your mind',
+  },
+  {
+    img: applesquare,
+    title: 'Skin hydration',
+    desc: 'Drink spinach smoothie',
   },
 ];

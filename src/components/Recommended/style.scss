@@ -1,0 +1,57 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.recommended {
+  margin-bottom: 10px;
+}
+.recommended-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: baseline;
+}
+.recommended-primary {
+  font-size: $title;
+}
+.recommended-secondary {
+  font-size: $title;
+  color: $grey;
+}
+.recommended-box {
+  background: linear-gradient(
+    135deg,
+    rgba(245, 177, 216, 1) 0%,
+    rgba(172, 126, 244, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 180px;
+}
+.recommended-content {
+  display: flex;
+  flex: 1;
+  background-color: rgba($color: #ffff, $alpha: 0.7);
+  padding: 4px 8px;
+  border-radius: 0px 0px 8px 8px;
+}
+.recommended-categories {
+  display: flex;
+  justify-content: space-between;
+}
+.recommended-logo {
+  width: 30px;
+  margin-right: 8px;
+}
+.recommended-type {
+  font-size: $info;
+}
+
+.recommended-status {
+  font-size: $descrp;
+  color: $grey;
+}
+.recommended-img {
+  text-align: center;
+  flex: 3;
+}
