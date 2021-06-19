@@ -1,0 +1,19 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.menu {
+  margin: 0px 60px;
+}
+.menu-link {
+  display: flex;
+  font-size: $info;
+  align-items: center;
+  flex-direction: row;
+  height: 23px;
+}
+.menu-title {
+  margin: 15px 0px;
+  font-size: $descrp;
+  text-transform: uppercase;
+  color: $grey;
+}
