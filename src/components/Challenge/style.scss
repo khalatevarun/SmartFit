@@ -21,7 +21,7 @@
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-  height: 200px;
+  height: 220px;
 }
 .chal-desc {
   font-size: $descrp;
@@ -50,4 +50,24 @@
 .vl {
   border-left: 2px solid $grey;
   height: 75px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.addButton {
+  background-color: black;
+  color: #fff;
+  font-size: $info;
+  border-radius: 25px;
+  padding: 4px 16px;
+  border: 0px;
+  text-transform: uppercase;
+  font-family: 'Didact Gothic', sans-serif;
+}
+.shareLink {
+  font-size: $info;
+  color: $cyan;
+  text-transform: uppercase;
+  margin-left: 8px;
 }

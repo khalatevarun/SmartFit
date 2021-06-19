@@ -21,8 +21,9 @@
   display: flex;
   background-color: white;
   border-radius: 8px;
-  padding: 16px;
+  align-items: center;
   width: 180px;
+  height: 75px;
 }
 .categories {
   display: flex;
@@ -30,7 +31,7 @@
 }
 .logo {
   width: 50px;
-  margin-right: 8px;
+  margin: 0px 8px;
 }
 .type {
   font-size: $info;

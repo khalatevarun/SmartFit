@@ -34,6 +34,10 @@ const Challenge = () => {
 
               <div className="chal-title">{chal.cal}</div>
             </div>
+            <div className="buttons">
+              <button className="addButton">Add Challenge</button>
+              <div className="shareLink">Challenge Friend</div>
+            </div>
           </>
         ))}
       </div>
