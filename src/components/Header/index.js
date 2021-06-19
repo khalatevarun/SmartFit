@@ -13,7 +13,7 @@ const Header = () => {
       </div>
       <div className="links">
         <div className="notifyIcon">
-          <img src={notify} alt="search-icon" width="20px" />
+          <img src={notify} alt="search-icon" width="14px" />
         </div>
         <div className="profile">Jane Doe</div>
       </div>
