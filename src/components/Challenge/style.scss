@@ -1,0 +1,52 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.challenge {
+  width: 60%;
+}
+.challenge-heading {
+  font-size: $title;
+  margin-bottom: 10px;
+}
+.challenge-main {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(0, 212, 255, 0) 100%
+    ),
+    url('../../icons/food.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.chal-desc {
+  font-size: $descrp;
+  width: 55%;
+  margin-bottom: 10px;
+}
+.chal-title {
+  font-size: $title;
+  color: $blue-highlight;
+  margin-bottom: 5px;
+  align-items: baseline;
+}
+.chal-recepie {
+  font-size: $info;
+}
+.chal-step {
+  font-size: $descrp;
+  color: $grey;
+}
+.chal-info {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  justify-content: space-between;
+}
+.vl {
+  border-left: 2px solid $grey;
+  height: 75px;
+}

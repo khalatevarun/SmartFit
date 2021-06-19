@@ -29,3 +29,17 @@ export const dailyStats = [
     status: 'In Bad Average',
   },
 ];
+
+export const challenge = [
+  {
+    title: 'Early Morning Smoothie',
+    desc: 'Start you day with energy. For breakfast, prepare a powerful and healthy smoothie rich in potassium and vitamin C. It will boost your metabolism.',
+    recipe: [
+      '130g banana',
+      '1 whole kiwi',
+      '250ml orange juice',
+      '3 spoons of yogurt',
+    ],
+    cal: '420 cal',
+  },
+];
