@@ -11,8 +11,8 @@ const Monitoring = () => {
       <div className="categories">
         {dailyStats.map((stats) => (
           <div className="box">
-            <div className="logo">
-              <img src={stats.img} alt={stats.img} />
+            <div>
+              <img className="logo" src={stats.img} alt={stats.img} />
             </div>
             <div className="data">
               <div className="type">{stats.type}</div>

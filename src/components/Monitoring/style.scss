@@ -2,10 +2,12 @@
 @import '../../styles/fonts';
 
 .monitoring {
+  margin-bottom: 20px;
 }
 .heading {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 .primary {
   font-size: $title;
@@ -19,8 +21,25 @@
   background-color: white;
   border-radius: 8px;
   padding: 16px;
+  width: 150px;
 }
 .categories {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+.logo {
+  width: 50px;
+  margin-right: 8px;
+}
+.type {
+  font-size: $descrp;
+  margin-bottom: 8px;
+}
+.stat {
+  font-size: $title;
+}
+.status {
+  font-size: 8px;
+  color: $grey;
+  text-transform: uppercase;
 }
