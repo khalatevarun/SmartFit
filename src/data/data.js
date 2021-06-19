@@ -5,25 +5,25 @@ import moon from '../icons/moon.png';
 
 export const dailyStats = [
   {
-    img: { apple },
+    img: apple,
     type: 'Calories',
     stat: '2814',
     status: 'Daily Average',
   },
   {
-    img: { footprint },
+    img: footprint,
     type: 'Steps',
     stat: '7234',
     status: 'Daily Average',
   },
   {
-    img: { dumbell },
+    img: dumbell,
     type: 'Workouts',
     stat: '1h 23min',
     status: 'Active',
   },
   {
-    img: { moon },
+    img: moon,
     type: 'Sleeping Analysis',
     stat: '7h 35min',
     status: 'In Bad Average',
