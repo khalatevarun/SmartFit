@@ -1,3 +1,6 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
 .profile {
   display: flex;
   flex-direction: column;
@@ -8,4 +11,13 @@
   border-radius: 50%;
   width: 125px;
   margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.points {
+  font-size: $info;
+  color: $grey;
+}
+.num {
+  font-size: $title;
 }
