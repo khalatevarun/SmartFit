@@ -1,5 +1,6 @@
-import './App.css';
+import './App.scss';
 import Header from './components/Header';
+import Monitoring from './components/Monitoring';
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <div className="sidebar">Hello World</div>
       <div className="main">
         <Header />
+        <div className="container">
+          <Monitoring />
+        </div>
       </div>
     </div>
   );
