@@ -43,3 +43,18 @@ export const challenge = [
     cal: '420 cal',
   },
 ];
+
+export const dailytips = [
+  {
+    title: 'Mindfulness',
+    desc: 'Do one-hour yoga daily for improving your body balance, flexibility and strength.',
+  },
+  {
+    title: 'Get more of your day',
+    desc: 'Wake up 40 min before the usual and go for a morning walk in the park.',
+  },
+  {
+    title: 'Early bedtime',
+    desc: 'Go to sleep more of the same hour every night.',
+  },
+];

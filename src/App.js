@@ -2,16 +2,20 @@ import './App.scss';
 import Challenge from './components/Challenge';
 import Header from './components/Header';
 import Monitoring from './components/Monitoring';
+import Tips from './components/Tips';
 
 function App() {
   return (
     <div className="App">
-      <div className="sidebar">Hello World</div>
+      <div className="sidebar"></div>
       <div className="main">
         <Header />
         <div className="container">
           <Monitoring />
-          <Challenge />
+          <div className="section2">
+            <Challenge />
+            <Tips />
+          </div>
         </div>
       </div>
     </div>
