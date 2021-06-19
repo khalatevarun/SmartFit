@@ -1,0 +1,30 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.Header {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.searchBar {
+  background: $bg;
+  border-radius: 25px;
+  padding: 4px 8px;
+  display: flex;
+  flex-direction: row;
+  color: $grey;
+  font-weight: 400;
+  font-size: $info;
+  width: 40%;
+}
+.icon {
+  margin-right: 8px;
+  width: 12px;
+}
+.links {
+  display: flex;
+  font-size: $info;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+}
