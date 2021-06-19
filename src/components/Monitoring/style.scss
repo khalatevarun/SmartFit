@@ -8,12 +8,13 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  align-items: baseline;
 }
 .primary {
   font-size: $title;
 }
 .secondary {
-  font-size: $info;
+  font-size: $descrp;
   color: $grey;
 }
 .box {

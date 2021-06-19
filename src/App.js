@@ -1,4 +1,5 @@
 import './App.scss';
+import Challenge from './components/Challenge';
 import Header from './components/Header';
 import Monitoring from './components/Monitoring';
 
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <div className="container">
           <Monitoring />
+          <Challenge />
         </div>
       </div>
     </div>
