@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  width: 80%;
+  height: 100%;
+  background-color: blue;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100%;
+  background-color: aqua;
+}
