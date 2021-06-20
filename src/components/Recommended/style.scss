@@ -28,6 +28,7 @@
   border-radius: 8px;
   width: 180px;
   height: 140px;
+  position: relative;
 }
 .recommended-content {
   display: flex;
@@ -55,4 +56,10 @@
 .recommended-img {
   text-align: center;
   flex: 3;
+}
+.plus-icon {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 18px;
 }

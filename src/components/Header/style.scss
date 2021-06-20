@@ -5,6 +5,7 @@
   padding: 15px 90px 15px 0px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .searchBar {
   background: $bg;
@@ -26,5 +27,14 @@
   font-size: $title;
   align-items: center;
   justify-content: space-between;
-  width: 10%;
+  width: 15%;
+}
+.header-img {
+  border-radius: 50%;
+  width: 30px;
+  margin-right: 8px;
+}
+.header-profile {
+  display: flex;
+  align-items: center;
 }

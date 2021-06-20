@@ -1,6 +1,7 @@
 import { recommended } from '../../data/data';
 import './style.scss';
 import yoga from '../../icons/yoga.png';
+import plus from '../../icons/plus.png';
 
 const Recommended = () => {
   return (
@@ -14,6 +15,7 @@ const Recommended = () => {
       <div className="recommended-categories">
         {recommended.map((r) => (
           <div className="recommended-box">
+            <img className="plus-icon" src={plus} />
             <div className="recommended-img">
               <img src={yoga} alt={yoga} width="80px" />
             </div>
