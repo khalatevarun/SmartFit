@@ -71,3 +71,22 @@
   text-transform: uppercase;
   margin-left: 16px;
 }
+
+@media (max-width: 789px) {
+  .challenge {
+    width: 100%;
+  }
+  .challenge-main {
+    height: auto;
+    background-image: none;
+  }
+  .vl {
+    display: none;
+  }
+  .chal-info {
+    flex-direction: column;
+  }
+  .chal-desc {
+    width: 100%;
+  }
+}
