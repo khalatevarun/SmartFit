@@ -21,6 +21,7 @@
 .icon {
   margin: 0px 8px;
   width: 16px;
+  cursor: pointer;
 }
 .links {
   display: flex;
@@ -28,18 +29,22 @@
   align-items: center;
   justify-content: space-between;
   width: 15%;
+  cursor: pointer;
 }
 .header-img {
   border-radius: 50%;
   width: 30px;
   margin-right: 8px;
+  cursor: pointer;
 }
 .header-profile {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .menu-icon {
   display: none;
+  cursor: pointer;
 }
 @media (max-width: 789px) {
   .searchBar {

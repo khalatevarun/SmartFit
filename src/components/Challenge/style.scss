@@ -64,12 +64,22 @@
   border: 0px;
   text-transform: uppercase;
   font-family: 'Didact Gothic', sans-serif;
+  cursor: pointer;
+  border: 1px solid black;
+  &:hover {
+    color: black;
+    background-color: #fff;
+  }
 }
 .shareLink {
   font-size: $info;
   color: $cyan;
   text-transform: uppercase;
   margin-left: 16px;
+  cursor: pointer;
+  &:hover {
+    letter-spacing: 0.5px;
+  }
 }
 
 @media (max-width: 789px) {

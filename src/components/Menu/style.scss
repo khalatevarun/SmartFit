@@ -8,9 +8,15 @@
   display: flex;
   font-size: $info;
   align-items: center;
+  cursor: pointer;
   flex-direction: row;
+
   p {
     margin: 4px;
+    transition: none !important;
+    &:hover {
+      color: $pink;
+    }
   }
 }
 .menu-title {

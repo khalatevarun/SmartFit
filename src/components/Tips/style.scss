@@ -16,6 +16,7 @@
 .secondary {
   font-size: $descrp;
   color: $grey;
+  cursor: pointer;
 }
 .tips-main {
   background-color: white;
@@ -39,6 +40,10 @@
   font-size: $descrp;
   margin-bottom: 4px;
   color: $cyan;
+  cursor: pointer;
+  &:hover {
+    letter-spacing: 0.5px;
+  }
 }
 .hl {
   border-top: 1px solid $grey;

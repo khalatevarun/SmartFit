@@ -16,6 +16,10 @@
 .secondary {
   font-size: $descrp;
   color: $grey;
+  cursor: pointer;
+  &:hover {
+    letter-spacing: 0.5px;
+  }
 }
 .box {
   display: flex;
@@ -24,6 +28,13 @@
   align-items: center;
   width: 200px;
   height: 75px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+
+  &:hover {
+    top: -10px;
+  }
 }
 .categories {
   display: flex;
