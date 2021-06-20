@@ -17,7 +17,7 @@ const Recommended = () => {
           <div className="recommended-box">
             <img className="plus-icon" src={plus} />
             <div className="recommended-img">
-              <img src={yoga} alt={yoga} width="80px" />
+              <img src={yoga} alt={yoga} width="150px" />
             </div>
             <div className="recommended-content">
               <div>
