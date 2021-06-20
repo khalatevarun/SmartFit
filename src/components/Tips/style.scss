@@ -1,0 +1,47 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.tips {
+  width: 37%;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: baseline;
+}
+.primary {
+  font-size: $title;
+}
+.secondary {
+  font-size: $descrp;
+  color: $grey;
+}
+.tips-main {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 220px;
+}
+.tip-title {
+  font-size: $info;
+  margin-bottom: 4px;
+}
+.tip-description {
+  font-size: $descrp;
+  margin-bottom: 4px;
+  color: $grey;
+}
+.tip-link {
+  font-size: $descrp;
+  margin-bottom: 4px;
+  color: $cyan;
+}
+.hl {
+  border-top: 1px solid $grey;
+  width: 300px;
+  margin-bottom: 4px;
+}

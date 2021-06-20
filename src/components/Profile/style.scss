@@ -1,0 +1,29 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  border-radius: 50%;
+  width: 125px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.points {
+  font-size: $info;
+  color: $grey;
+}
+.num {
+  font-size: $title;
+}
+.profile-hl {
+  width: 80%;
+  height: 1px;
+  margin-top: 10px;
+  background-color: $grey;
+}

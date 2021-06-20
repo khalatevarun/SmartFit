@@ -1,0 +1,47 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.monitoring {
+  margin-bottom: 10px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: baseline;
+}
+.primary {
+  font-size: $title;
+}
+.secondary {
+  font-size: $descrp;
+  color: $grey;
+}
+.box {
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  align-items: center;
+  width: 180px;
+  height: 75px;
+}
+.categories {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 40px;
+  margin: 0px 16px;
+}
+.type {
+  font-size: $info;
+  margin-bottom: 8px;
+}
+.stat {
+  font-size: $title;
+}
+.status {
+  font-size: 8px;
+  color: $grey;
+  text-transform: uppercase;
+}
