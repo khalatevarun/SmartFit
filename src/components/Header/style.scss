@@ -38,3 +38,25 @@
   display: flex;
   align-items: center;
 }
+.menu-icon {
+  display: none;
+}
+@media (max-width: 789px) {
+  .searchBar {
+    width: 60%;
+    margin-left: 4px;
+  }
+  .username {
+    display: none;
+  }
+  .Header {
+    padding: 15px;
+  }
+  .links {
+    width: 25%;
+  }
+  .menu-icon {
+    display: block;
+    width: 20px;
+  }
+}

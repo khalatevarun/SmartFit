@@ -28,6 +28,7 @@
 .categories {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .logo {
   width: 40px;
@@ -44,4 +45,16 @@
   font-size: 8px;
   color: $grey;
   text-transform: uppercase;
+}
+
+@media (max-width: 789px) {
+  .box {
+    margin-bottom: 30px;
+  }
+  .heading {
+    flex-direction: column;
+  }
+  .categories {
+    justify-content: center;
+  }
 }

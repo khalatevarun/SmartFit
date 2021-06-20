@@ -2,10 +2,17 @@ import './style.scss';
 import search from '../../icons/search.png';
 import notify from '../../icons/notify.png';
 import pp from '../../icons/pp.jpg';
+import menu from '../../icons/menu.png';
+import { useState } from 'react';
 
-const Header = () => {
+const Header = ({ setShowMenu, showMenu }) => {
+  const handleClick = () => {
+    setShowMenu(!showMenu);
+  };
   return (
     <div className="Header">
+      <img className="menu-icon" src={menu} onClick={handleClick} />
+
       <div className="searchBar">
         <div className="searchIcon">
           <img className="icon" src={search} alt="search-icon" />
@@ -21,7 +28,7 @@ const Header = () => {
           <div>
             <img className="header-img" src={pp} alt={pp} />
           </div>
-          <div> Jane Doe</div>
+          <div className="username"> Jane Doe</div>
         </div>
       </div>
     </div>

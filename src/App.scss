@@ -3,8 +3,6 @@
 .App {
   display: flex;
   flex-direction: row;
-  overflow-y: hidden;
-  height: 100vh;
 }
 
 .main {
@@ -27,4 +25,22 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+}
+
+@media (max-width: 789px) {
+  .main {
+    width: 100%;
+  }
+  .sidebar {
+    display: none;
+  }
+  .container {
+    border-radius: 0;
+  }
+  .section2 {
+    display: block;
+  }
+  .container {
+    padding: 10px 30px;
+  }
 }

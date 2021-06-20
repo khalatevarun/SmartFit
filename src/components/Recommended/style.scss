@@ -65,6 +65,7 @@
 .recommended-categories {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .recommended-logo {
   width: 30px;
@@ -87,4 +88,16 @@
   right: 8px;
   top: 8px;
   width: 24px;
+}
+
+@media (max-width: 789px) {
+  .recommended-box {
+    margin-bottom: 30px;
+  }
+  .recommended-heading {
+    flex-direction: column;
+  }
+  .recommended-categories {
+    justify-content: center;
+  }
 }
