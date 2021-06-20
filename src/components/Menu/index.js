@@ -20,40 +20,40 @@ const Menu = () => {
       <div className="menu-title">Personal Tips</div>
       <div className="menu-link">
         <img src={calendar} className="icon" />
-        <p>Overview</p>
+        <p>Nutrition</p>
       </div>
       <div className="menu-link">
         <img src={calendar} className="icon" />
-        <p>Overview</p>
+        <p>Sport</p>
       </div>
       <div className="menu-link">
         <img src={calendar} className="icon" />
-        <p>Overview</p>
+        <p>Beauty</p>
       </div>
       <div className="menu-link">
         <img src={calendar} className="icon" />
-        <p>Daily Plan</p>
+        <p>Health</p>
       </div>
       <div className="menu-link">
         <img src={calendar} className="icon" />
-        <p>Progress</p>
+        <p>Mindfulness</p>
       </div>
       <div className="menu-title">Your Data</div>
       <div className="menu-link">
         <img src={calendar} className="icon" />
-        <p>Overview</p>
+        <p>Blood</p>
       </div>
       <div className="menu-link">
         <img src={calendar} className="icon" />
-        <p>Daily Plan</p>
+        <p>DNA</p>
       </div>
       <div className="menu-link">
         <img src={calendar} className="icon" />
-        <p>Progress</p>
+        <p>Microbiome</p>
       </div>
       <div className="menu-link">
         <img src={calendar} className="icon" />
-        <p>Overview</p>
+        <p>Questionnaire</p>
       </div>
     </div>
   );
