@@ -65,6 +65,7 @@
 .recommended-categories {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .recommended-logo {
   width: 30px;
