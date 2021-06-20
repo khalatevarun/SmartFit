@@ -3,6 +3,8 @@
 .App {
   display: flex;
   flex-direction: row;
+  position: relative;
+  overflow-x: hidden;
 }
 
 .main {
