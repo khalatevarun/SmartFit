@@ -21,7 +21,7 @@ const Header = () => {
           <div>
             <img className="header-img" src={pp} alt={pp} />
           </div>
-          <div> Jane Doe</div>
+          <div className="username"> Jane Doe</div>
         </div>
       </div>
     </div>

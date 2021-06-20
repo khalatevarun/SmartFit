@@ -38,3 +38,18 @@
   display: flex;
   align-items: center;
 }
+@media (max-width: 789px) {
+  .searchBar {
+    width: 60%;
+    margin-left: 20px;
+  }
+  .username {
+    display: none;
+  }
+  .Header {
+    padding: 15px;
+  }
+  .links {
+    width: 25%;
+  }
+}
