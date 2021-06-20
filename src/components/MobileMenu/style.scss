@@ -1,0 +1,27 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.mobile-menu {
+  padding: 20px 60px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+}
+.mobile-menu-link {
+  display: flex;
+  font-size: $info;
+  align-items: center;
+  flex-direction: row;
+  p {
+    margin: 4px;
+  }
+}
+.mobile-menu-title {
+  margin: 15px 0px;
+  font-size: $descrp;
+  text-transform: uppercase;
+  color: $grey;
+}
