@@ -9,6 +9,7 @@ const Profile = () => {
       </div>
       <div className="points">Daily points</div>
       <div className="num">2,466</div>
+      <div className="profile-hl"></div>
     </div>
   );
 };
