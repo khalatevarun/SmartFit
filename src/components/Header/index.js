@@ -2,10 +2,12 @@ import './style.scss';
 import search from '../../icons/search.png';
 import notify from '../../icons/notify.png';
 import pp from '../../icons/pp.jpg';
+import menu from '../../icons/menu.png';
 
 const Header = () => {
   return (
     <div className="Header">
+      <img className="menu-icon" src={menu} />
       <div className="searchBar">
         <div className="searchIcon">
           <img className="icon" src={search} alt="search-icon" />
