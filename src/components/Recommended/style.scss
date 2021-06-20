@@ -89,3 +89,9 @@
   top: 8px;
   width: 24px;
 }
+
+@media (max-width: 789px) {
+  .recommended-box {
+    margin-bottom: 30px;
+  }
+}
